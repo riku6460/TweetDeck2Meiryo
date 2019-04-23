@@ -6,8 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://tweetdeck.twitter.com/*"],
-      "js": ["jquery.js", "index.js"],
-      "run_at": "document_idle"
+      "css": ["style.css"]
     }
   ]
 }
